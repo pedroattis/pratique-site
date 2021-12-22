@@ -1,0 +1,76 @@
+body{
+    background: #f5250a url(fundo.png) no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#principal{
+    border: 1px solid red;
+    width: 900px;
+}
+
+#menu{
+   background-color: #ddf507;
+   border: none;
+}
+
+#conteudo{
+    background: #f75409;
+    padding: 20px;
+}
+
+#rodape{
+    text-align: center;
+}
+
+.centralizar{
+    text-align: center;
+    }
+
+    .img-campanha{
+        border: 10px solid #f0ebe8;
+    }
+    h1{
+        color: #3875cc;
+        font-size: 2.2em;
+    }
+
+    a{
+        color: #eee7ee;
+        text-decoration: none  ;
+        font-weight: bold;
+        border: 1px solid red;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    a:active{
+        color: #11d3f5;
+        background-color: red;
+
+    }
+
+    div{
+        margin: 20px;
+        border: 1px solid;
+        background-color: rgb(206, 250, 12);
+        padding: 15px;
+    }
+
+    a:hover{
+        color:rgb(236, 232, 232) ;
+        background-color: rgb(10, 10, 10);
+
+      }
+      a:link{
+          background-color: #ff0000;
+      }
+
+    #home #menu .home a,
+    #bio #menu .bio a,
+    #contato #menu .contato a,
+    #camp #menu .camp a
+    {
+        background-position: right bottom;
+        background-color: rgb(6, 196, 243);
+        color: #fff;
+    }
+     
